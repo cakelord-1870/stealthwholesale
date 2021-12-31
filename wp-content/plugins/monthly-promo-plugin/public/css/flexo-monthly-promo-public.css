@@ -1,0 +1,37 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.promo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.promo h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+    text-align: center;
+    color: #005dab;
+    background: #eee;
+    margin: 0;
+    padding: 15px 0;
+    font-family: "Open Sans Condensed", sans-serif;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.promo:hover {
+    opacity: .8;
+}

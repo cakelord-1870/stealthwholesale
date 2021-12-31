@@ -1,0 +1,63 @@
+body.welcome,	/* merged standard/welcome.htm */
+form[name="logon"]	/* old /welcome.htm */
+{	/* based on modular.css */
+	scrollbar-base-color: #CDDBEB;
+	color: #444D9C;
+	background-color: white;
+	font-family: Verdana, Lucida Grande, sans-serif;	
+	font-size: 9pt;
+	font-weight: normal;
+	font-stretch: normal;
+}
+
+.welcomeLoading_outer {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.welcomeLoading_inner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 50%;
+	height: 70px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.welcomeLoading_inner img {
+	border: 0;
+}
+
+#preloadFrame {
+	display: none;
+}
+
+/*
+.welcomeLoading_inner *
+{
+	display: none;
+}
+.welcomeLoading_inner
+{
+	color: white;
+}
+.welcomeLoading_inner
+{
+	width: 2em;
+	height: 2em;
+	border: 0.1em solid rgba(255,255,255,0.15);
+	border-top: 0.1em solid #f3f3f3;
+	border-radius: 50%;
+	animation: welcome-spin 0.5s linear infinite;
+}
+@keyframes welcome-spin
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+*/
